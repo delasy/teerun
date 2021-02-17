@@ -1,0 +1,6 @@
+*
+!scripts/
+!src/
+!tests/
+!CMakeLists.txt
+!valgrind.supp

@@ -1,0 +1,33 @@
+{
+  "name": "trn-core-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delasy/trn-core-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delasy/trn-core-frontend/issues"
+  },
+  "homepage": "https://github.com/delasy/trn-core-frontend#readme",
+  "devDependencies": {
+    "husky": "^5.0.9",
+    "standard": "^16.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "standard"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
